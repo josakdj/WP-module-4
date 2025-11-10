@@ -7,6 +7,8 @@
     <?php wp_head(); ?>
 
 </head>
+<body>
+<header class="site-header">
 <nav class='site-nav'>
 <?php
 wp_nav_menu( array(
@@ -15,4 +17,4 @@ wp_nav_menu( array(
 ) );
 ?>
 </nav>
-<body>
+</header>
